@@ -1,0 +1,135 @@
+.card{
+    text-align: center;
+    border-style: none;  
+    margin: 0 auto;
+    margin-bottom: 10px; 
+}
+.box1{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    
+}
+.box2{
+    width: 600px;
+    height: 730px;
+    background-color: rgb(255, 255, 255);
+    padding: 25px;
+    font-family: sans-serif;
+    border-style: solid;
+    border-width: 1px;
+    border-color: lightgray;
+    text-align: center;
+}
+h3{
+    font-weight: bold;
+    padding: 10px;
+    text-align: center;
+}
+h4{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+.container-fluid{
+    background-color: aliceblue;
+    
+}
+.container{
+    padding: 70px;
+}
+p{
+    padding:20px;
+}
+button{
+    padding-bottom: 20px; 
+    margin-bottom: 20px;
+}
+
+/* For mobile phones: */
+[class*="col-"] {
+  width: 100%;
+}
+
+@media only screen and (min-width: 600px) {
+  /* For tablets: */
+  .col-s-1 {width: 8.33%;}
+  .col-s-2 {width: 16.66%;}
+  .col-s-3 {width: 25%;}
+  .col-s-4 {width: 33.33%;}
+  .col-s-5 {width: 41.66%;}
+  .col-s-6 {width: 50%;}
+  .col-s-7 {width: 58.33%;}
+  .col-s-8 {width: 66.66%;}
+  .col-s-9 {width: 75%;}
+  .col-s-10 {width: 83.33%;}
+  .col-s-11 {width: 91.66%;}
+  .col-s-12 {width: 100%;}
+}
+@media only screen and (min-width: 768px) {
+  /* For desktop: */
+  .col-1 {width: 8.33%;}
+  .col-2 {width: 16.66%;}
+  .col-3 {width: 25%;}
+  .col-4 {width: 33.33%;}
+  .col-5 {width: 41.66%;}
+  .col-6 {width: 50%;}
+  .col-7 {width: 58.33%;}
+  .col-8 {width: 66.66%;}
+  .col-9 {width: 75%;}
+  .col-10 {width: 83.33%;}
+  .col-11 {width: 91.66%;}
+  .col-12 {width: 100%;}
+}
+
+
+table{
+    height: 100px;
+    width: 150px;
+    border-width: 2px;
+    padding: 15px 15px 15px 15px;
+    margin: 0 auto;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#header .profile .social-links a:hover {
+    background: #149ddd;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+  }
+
+  
+.git {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted #c2c0c3;
+  }
+  
+  .git .card .card-header {
+  
+    text-align: center;
+  
+  }
+  
+  .git .card {
+    visibility: hidden;
+    width: 120px;
+    background-color: #c2c0c3;
+    color: rgb(0, 0, 0);
+    /* text-align: center; */
+    border-radius: 6px;
+    padding: 5px 0;
+    
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -60px;
+  }
+  
+  .git:hover .card {
+    visibility: visible;
+  
+  }
